@@ -9,13 +9,8 @@ $(document).ready(function() {
     console.log('value:', value);
     console.log('time:', time);
 
-    // save the value in localStorage as time
-    //localStorage.setItem(time, value);
-    //localStorage.setItem("email", email);
-    //localStorage.setItem("password", password);
-
-    localStorage.setItem("time", time);
-    localStorage.setItem("value", value)
+  // save the value in localStorage as time
+    localStorage.setItem(time, value);
   });
 
   function hourUpdater() {
@@ -64,14 +59,10 @@ $(document).ready(function() {
   // load any saved data from localStorage
   
 
-  var value = localStorage.getItem("value");  
+  var userInput = localStorage.getItem("value");  
 
-  $(".description").text(value);
-
-
-
- 
-
+  $(".description").val(userInput);
+  
   // display current day on page
   $("#currentDay").text(moment().format("dddd, MMMM Do"));
 });
