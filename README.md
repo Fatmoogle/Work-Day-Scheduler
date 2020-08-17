@@ -1,4 +1,7 @@
 # Work-Day-Scheduler
+
+Link: https://fatmoogle.github.io/Work-Day-Scheduler/
+
 Daily planner that saves user input and adjusts according to time of day.
 
 This homework was a bit simpler than most of the other assignments we have had. We were tasked with completing the starter code in order to create a day planner that was dynamic and updated with the time. Luckily, this part of the assignment was completed, and we just had to update the code to get it to save correctly and display properly. 
